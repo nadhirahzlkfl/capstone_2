@@ -4,15 +4,13 @@ This project involves building a text classification model using Keras and Tenso
 
 ## Libraries
 
-```
-keras
-tensorflow
-scikit-learn
-mlflow
-nltk
-pandas
-numpy
-```
+`keras`
+`tensorflow`
+`scikit-learn`
+`mlflow`
+`nltk`
+`pandas`
+`numpy`
 
 ## Dataset
 
