@@ -21,7 +21,7 @@ The dataset consists of two columns:
 
 The dataset has 50,425 entries, which include the product category and the text associated with the product.
 
-![Data source](https://www.kaggle.com/datasets/saurabhshahane/ecommerce-text-classification) 
+[Data source](https://www.kaggle.com/datasets/saurabhshahane/ecommerce-text-classification) 
 
 ### Data Preprocessing
 
