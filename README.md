@@ -23,7 +23,7 @@ The dataset consists of two columns:
 
 The dataset has 50,425 entries, which include the product category and the text associated with the product.
 
-[Data source](https://www.kaggle.com/datasets/saurabhshahane/ecommerce-text-classification) 
+![Data source](https://www.kaggle.com/datasets/saurabhshahane/ecommerce-text-classification) 
 
 ### Data Preprocessing
 
@@ -39,21 +39,21 @@ The model is built using Keras with the following architecture:
 
 1. **Text Vectorization**: A `TextVectorization` layer is used to tokenize the input text and convert it into integer sequences.
 
-[Tokenization](static/tokenization.png)
+![Tokenization](static/tokenization.png)
 
 2. **Embedding**: The tokenized data is passed through an embedding layer with a 64-dimensional output space.
 
-[Embedding](static/embedding.png)
+![Embedding](static/embedding.png)
 
 3. **Bidirectional LSTM**: A Bidirectional LSTM (Long Short-Term Memory) layer is used to capture dependencies in the text.
 
-[Keras model](static/keras_model.png)
+![Keras model](static/keras_model.png)
 
 4. **Dense Layer**: The output of the LSTM layer is passed through a fully connected dense layer with a softmax activation to classify the input into one of the four categories.
 
 The model is compiled with the `SparseCategoricalCrossentropy` loss function, and `accuracy` is used as the evaluation metric.
 
-[Model compilation](static/model_compilation.png)
+![Model compilation](static/model_compilation.png)
 
 ## Training and Experiment Tracking with MLflow
 
